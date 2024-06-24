@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café-Adm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0">Cafeteria Aromas do Mundo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-cafe" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o cafeteria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-cafe">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="midia/cafeteria/slide1.jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="midia/cafeteria/slide2.png" alt="Duas tças de vihno">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="midia/cafeteria/slide3.jpg" alt="Uma mesa com comida">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div>
+                    <div class="container pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="midia/cafeteria/cafeteria.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da cafeteria">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">a cafeteria</span></h2>
+                                <p>
+                                    Bem-vindos à Cafeteria Aromas do Mundo: <br>
+                                    Localizada no coração da cidade, a Cafeteria Aromas do Mundo é um refúgio acolhedor para os amantes de café e todos que apreciam uma boa conversa em um ambiente tranquilo e inspirador. Com uma decoração aconchegante, mesclando o moderno com o rústico, nossos clientes são recebidos por uma atmosfera única, onde cada detalhe foi pensado para proporcionar uma experiência memorável
+                                </p>
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>
+                                    Ambiente: <br>
+                                    A Cafeteria Aromas do Mundo é o local perfeito para estudar, trabalhar remotamente ou simplesmente relaxar com um bom livro. Nossos espaços são equipados com Wi-Fi gratuito e tomadas acessíveis para garantir conforto e conveniência aos nossos clientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5"> 
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Eventos<span class="text-colored"> especiais</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <img src="midia/eventos/aniversario.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored section-title fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Reservas para aniversários
+                        </h3>
+                        <p>Reserve uma mesa para comemorações de aniversários com direito a um cardápio feito para esta ocasião</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="midia/eventos/show.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored section-title fs-4">
+                            <i class="bi bi-file-music-fill"></i>
+                            Shows</h3>
+                        <p>Em todos os finais de semana teremos shows com mpb, pagode, samba, etc, para todo o tipo de gostos musicais</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nosso <span class="text-colored">cardápio</span>
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-columns nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cafes-especiais" class="fw-bold text-start  nav-link text-colored active">Cafés Especiais</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#cha-premium" class="fw-bold text-start  nav-link text-colored">Chás Premium</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-geladas" class="fw-bold text-start  nav-link text-colored">Bebidas Geladas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#doces-e-salgados" class="fw-bold text-start  nav-link text-colored">Doces e Salgados</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                            <div class="tab-pane active" id="cafes-especiais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cafe/item1.jpg" alt="Espresso">
+                                        <h5 class="text-colored fw-bold mt-2">Espresso</h5>
+                                        <p>
+                                            É preparado aplicando um jato de água quente, com pressão de 9 ou mais atmosferas, durante 25 a 30 segundos através de uma camada prensada de 7 gramas de café moído. O resultado é um café concentrado com cerca de 30 ml de puro prazer degustativo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cafe/item2.webp" alt="Cappuccino">
+                                        <h5 class="text-colored fw-bold mt-2">Cappuccino</h5>
+                                        <p>
+                                            Um cappuccino corresponde aproximadamente a 150 ml de bebida, composta por um espresso (30 ml) + partes iguais de leite e creme de leite.                                        
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cafe/item3.jpg" alt="Latte   ">
+                                        <h5 class="text-colored fw-bold mt-2">Latte </h5>
+                                        <p>
+                                            É uma variante do latte, no sentido de que costuma ser 1/3 de expresso e 2/3 de leite vaporizado, sendo a principal diferença que é adicionado um sabor de chocolate, que pode ser claro ou escuro
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cafe/item4.png" alt="Mocha">
+                                        <h5 class="text-colored fw-bold mt-2">Mocha</h5>
+                                        <p>
+                                            Uma dose de café expresso combinada com chocolate em pó ou xarope, seguida de leite ou creme.                                        </p>
+                                    </div>
+                            </div>
+                            </div>
+                            <div class="tab-pane" id= "cha-premium">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cha/item1.jpg" alt="Cha-verde">
+                                        <h5 class="text-colored fw-bold mt-2">Chá-verde</h5>
+                                        <p>
+                                            Chá-verde é um tipo de chá feito a partir da infusão da planta Camellia sinensis.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cha/item2.webp" alt="Cha-preto">
+                                        <h5 class="text-colored fw-bold mt-2">Chá-preto</h5>
+                                        <p>
+                                            O chá-preto é obtido a partir dos brotos e das folhas mais velhas da Camellia sinensis. A diferença para as outras bebidas está na forma como ele é elaborado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cha/item3.webp" alt="Cha-de-ervas">
+                                        <h5 class="text-colored fw-bold mt-2">Chá-de-ervas</h5>
+                                        <p>
+                                            É feito com erva-doce e hortelã
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/cha/item4.jpg" alt="Cha-latte">
+                                        <h5 class="text-colored fw-bold mt-2">Chá-latte</h5>
+                                        <p>
+                                            Mistura do chá preto com leite e especiarias
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id= "bebidas-geladas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/geladas/item1.jpg" alt="Frappuccino">
+                                        <h5 class="text-colored fw-bold mt-2">Frappuccino</h5>
+                                        <p>
+                                            Combinação de café, chocolate intenso, leite e gelo triturado
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/geladas/item2.jpg" alt="Iced-Latte
+                                        ">
+                                        <h5 class="text-colored fw-bold mt-2">Iced Latte
+                                        </h5>
+                                        <p>
+                                            Um drink super refrescante com café, leite, cubos de gelo e um saborizante de sua preferência.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/geladas/item3.webp" alt="Smoothies-de-frutas
+                                        ">
+                                        <h5 class="text-colored fw-bold mt-2">Smoothies de frutas
+                                        </h5>
+                                        <p>
+                                            Uma bebida feita com a mistura de frutas, legumes ou vegetais (sendo da sua escolha)                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="doces-e-salgados">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/doces e salgados/item1.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo caseiros (diversos sabores)</h5>
+                                        <p>
+                                            Temos de chocolate, fubá, laranja, limão, formigueiro, cenoura com cobertura de chocolate, e doce de leite
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/doces e salgados/item2.jpg" alt="Croissants">
+                                        <h5 class="text-colored fw-bold mt-2">Croissants</h5>
+                                        <p>
+                                            Um salgado feito com massa folhada e manteiga
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/doces e salgados/item3.jpg" alt="Cookies artesanais">
+                                        <h5 class="text-colored fw-bold mt-2">Cookies artesanais</h5>
+                                        <p>
+                                            Cookies com gotas de chocolate
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/doces e salgados/item4.jpg" alt="Sanduíches">
+                                        <h5 class="text-colored fw-bold mt-2">Sanduíches</h5>
+                                        <p>
+                                            Sanduíche feito com peito de peru, mussarela, alface, tomate e maionese
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="midia/cardapio/doces e salgados/item5.jpg" alt="Wraps">
+                                        <h5 class="text-colored fw-bold mt-2">Wraps</h5>
+                                        <p>
+                                            Os wraps Swift são deliciosos e práticos para o dia a dia. Uma opção perfeita tanto para uma refeição quanto para um lanche rápido. São diversos sabores feitos com ingredientes selecionados.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links"> 
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Baker 221B </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
